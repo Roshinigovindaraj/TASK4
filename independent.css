@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 2px 10px 1.2px;
+    width: 100%;
+    height: 80px; 
+    background-color: #D3D9D4;
+    position: sticky;
+    
+}
+.parent i{
+    font-size: larger;  
+}
+.parent a :hover{
+    color:orangered;
+}
+.parent img{
+    width: 100px;
+    height: 80px;
+}
+.child{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    color: aliceblue;
+    
+}
+.child0{
+    padding-left: 20px;
+}
+.child0 input{
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    font-size:15px;
+    gap: 50PX;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+.icon{
+    padding-left: 20px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+    gap: 30px;
+}
+.child2 a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;   
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 70px; */
+}
+.child2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+
+}
+.logo{
+    display: flex;
+}
+.inner-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.child3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+.child2 i{
+    font-size: 15px;
+}
+.inner-logo i{
+    font-size: 15px;
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+div img{
+    width: 450px;
+}
+.head{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+   justify-content: space-around;
+   /* gap: 30px; */
+}
+.head h1{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+.head p{
+    font-size: 15px;
+}
+.con{
+    display: flex;
+    justify-content: space-evenly;
+}
+.con img{
+    width: 200px;
+}
+.con p{
+    font-size: 17px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serifx
+}
+.con a{
+    text-decoration: none;
+    color: green;
+}
+.von{
+    display: flex;
+    justify-content: space-evenly;
+}
+.von img{
+    width: 200px;
+}
+.von p{
+    font-size: 17px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serifx
+}
+.von a{
+    text-decoration: none;
+    color: green;
+}
+.don{
+    display: flex;
+    justify-content: space-evenly;
+}
+.don img{
+    width: 200px;
+}
+.don p{
+    font-size: 17px;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serifx
+}
+.don a{
+    text-decoration: none;
+    color: green;
+}
+section{
+    margin-top: 50px;
+}
